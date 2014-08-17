@@ -19,9 +19,38 @@
   </head>
 
   <body>
-  
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand"></h3>
+              <ul class="nav masthead-nav">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/projects">Here Be Projects</a></li>
+                <li><a href="/contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+
+
     <%= yield %>
 
+<div class="mastfoot">
+            <div class="inner">
+              <p>Tessa Fallon <a href="http://getbootstrap.com">Web Developer, Digital Archivist</a>, by <a href="https://twitter.com/tessafallon">@tessafallon</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/docs.min.js"></script>

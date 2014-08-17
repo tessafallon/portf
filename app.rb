@@ -8,6 +8,9 @@ class App < Sinatra::Base
     erb :index
   end
 
+  get '/cv' do
+    erb :cv
+  end
   get '/contact' do
     erb :contact
   end
