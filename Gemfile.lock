@@ -15,5 +15,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   shotgun
   sinatra
