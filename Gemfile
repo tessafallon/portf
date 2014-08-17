@@ -1,4 +1,5 @@
-source 'https://rubygems.org'gem 'sinatra'
+source 'https://rubygems.org'
 
+gem 'sinatra'
 gem 'shotgun'
 gem 'bundler'
