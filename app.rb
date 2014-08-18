@@ -18,4 +18,8 @@ class App < Sinatra::Base
   get '/projects' do
     erb :projects
   end
+
+  get '/full' do
+    erb :full
+  end
 end
