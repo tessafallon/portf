@@ -22,4 +22,9 @@ class App < Sinatra::Base
   get '/full' do
     erb :full
   end
+
+  get '/resume' do
+    erb :resume
+  end
+
 end
